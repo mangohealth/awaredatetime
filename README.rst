@@ -1,6 +1,10 @@
 .. role:: python(code)
           :language: python
 
+.. image:: https://img.shields.io/travis/mangohealth/awaredatetime.svg
+    :alt: Build Status
+    :target: https://travis-ci.org/mangohealth/awaredatetime/
+
 =============
 awaredatetime
 =============
