@@ -17,7 +17,7 @@ setup_requires = [
 setup(
     name="awaredatetime",
     version=open("VERSION").read().strip(),
-    description="",
+    description="Drop-in replacement for timezone aware datetime objects",
     long_description=(
         open("README.rst").read().strip() + "\n\n" +
         open("CONTRIBUTING.rst").read().strip() + "\n\n" +
@@ -38,7 +38,7 @@ setup(
         "Programming Language :: Python :: Implementation :: PyPy",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    keywords="python datetime timezone aware",
+    keywords="python datetime timezone aware awaredatetime utc",
     url="https://github.com/mangohealth/awaredatetime",
     author="Mango Health",
     author_email="opensource@mangohealth.com",
