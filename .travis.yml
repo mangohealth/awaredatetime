@@ -8,6 +8,8 @@ python:
   - "3.5"
   - "pypy"
 sudo: false
+install:
+  - pip install -q -r requirements.dev.txt
 script:
   - python setup.py test
   - flake8 awaredatetime tests

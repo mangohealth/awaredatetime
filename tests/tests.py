@@ -1,10 +1,13 @@
 from __future__ import unicode_literals, absolute_import
 
+# import built-in modules
 import datetime
-import unittest
 
+# import 3rd party modules
 import pytz
+import unittest2 as unittest
 
+# awaredatetime imports
 from awaredatetime import AwareDatetime
 from awaredatetime.config import DEFAULT_TIMEZONE
 

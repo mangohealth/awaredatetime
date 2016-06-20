@@ -1,4 +1,8 @@
+# testing related packages
 coverage==4.0.3
 flake8==2.5.4
+unittest2==1.1.0
+
+# packaging related packages
 twine
 wheel
