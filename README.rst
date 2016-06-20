@@ -44,7 +44,7 @@ e.g. What's the expected behavior for coverting ``24:00:00+00:00`` to positive U
 ============
 Dependencies
 ============
-The only dependency is pytz. We recommend that you use the latest version of pytz, but this package will not force that upon you.
+The only dependency is ``pytz``. We recommend that you use the latest version of ``pytz``, but this package will not force that upon you.
 
 =======================
 Migrating Existing Code
