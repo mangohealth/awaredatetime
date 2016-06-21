@@ -10,7 +10,7 @@ import pytz
 # import modules within this package
 from .config import DEFAULT_TIMEZONE, PYTZ_METHODS_ALLOWED_TO_REPLACE_TZINFO
 
-__version__ = open("VERSION").read().strip()
+__version__ = '0.0.2'
 
 
 class AwareDatetime(datetime.datetime):

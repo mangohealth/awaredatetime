@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import os
+import re
 from setuptools import setup, find_packages
 
 
@@ -14,9 +16,21 @@ setup_requires = [
     "flake8",
 ]
 
+
+def get_version(package):
+    """
+    Return package version as listed in `__version__` in `init.py`.
+
+    Slightly modified from https://github.com/tomchristie/django-rest-framework/blob/master/setup.py
+    """
+    init_py_filename = os.path.join(package, "__init__.py")
+    with open(init_py_filename) as f:
+        return re.search("__version__\s*=\s*['\"]([^'\"]+)['\"]", f.read()).group(1)
+    raise RuntimeError("Failed to parse version from: %s" % init_py_filename)
+
 setup(
     name="awaredatetime",
-    version=open("VERSION").read().strip(),
+    version=get_version("awaredatetime"),
     description="Drop-in replacement for timezone aware datetime objects",
     long_description=(
         open("README.rst").read().strip() + "\n\n" +
