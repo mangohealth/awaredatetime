@@ -4,6 +4,9 @@
 .. image:: https://img.shields.io/coveralls/mangohealth/awaredatetime.svg
     :alt: Code Coverage
     :target: https://coveralls.io/github/mangohealth/awaredatetime
+.. image:: https://img.shields.io/pypi/v/awaredatetime.svg
+    :alt: PyPi Version
+    :target: https://pypi.python.org/pypi/awaredatetime/
 
 =============
 awaredatetime
