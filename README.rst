@@ -1,6 +1,9 @@
 .. image:: https://img.shields.io/travis/mangohealth/awaredatetime.svg
     :alt: Build Status
     :target: https://travis-ci.org/mangohealth/awaredatetime/
+.. image:: https://img.shields.io/coveralls/mangohealth/awaredatetime.svg
+    :alt: Code Coverage
+    :target: https://coveralls.io/github/mangohealth/awaredatetime
 
 =============
 awaredatetime

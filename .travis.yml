@@ -11,5 +11,7 @@ sudo: false
 install:
   - pip install -q -r requirements.dev.txt
 script:
-  - python setup.py test
+  - coverage run --source=awaredatetime setup.py test
   - flake8 awaredatetime tests
+after_success:
+  coveralls
