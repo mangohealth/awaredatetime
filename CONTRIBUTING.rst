@@ -23,22 +23,16 @@ Steps
 
 #. Add unittests for your changes
 
-#. Ensure unittests are passing
+#. Run tests, which will also check the coding style
 
    .. code:: bash
 
-             python setup.py test
+             coverage run --source=awaredatetime setup.py test_dev
 
-#. Ensure that you're meeting the style guide
-
-   .. code:: bash
-
-             flake8 awaredatetime
-
-#. Ensure that your changes have proper test coverage
+#. Once tests pass, ensure that your changes have proper test coverage
 
    .. code:: bash
 
-             coverage run --source=awaredatetime setup.py test; coverage html; ls htmlcov/index.html
+             coverage html && ls htmlcov/index.html
 
 #. Open a `PR <https://github.com/mangohealth/awaredatetime/pulls>`_
