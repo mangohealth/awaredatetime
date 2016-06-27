@@ -10,6 +10,9 @@
 .. image:: https://img.shields.io/pypi/pyversions/awaredatetime.svg
     :alt: Supported Python Versions
     :target: https://pypi.python.org/pypi/awaredatetime/
+.. image:: https://img.shields.io/pypi/implementation/awaredatetime.svg
+    :alt: Supported Python Implementations
+    :target: https://pypi.python.org/pypi/awaredatetime
 
 =============
 awaredatetime
