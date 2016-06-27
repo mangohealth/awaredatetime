@@ -17,6 +17,13 @@ awaredatetime
 Module providing a timezone aware ``datetime.datetime`` compatible object.
 Supports CPython 2.6 - 3.5 and PyPy.
 
+--------
+Features
+--------
+- Drop-in replacement for ``datetime.datetime``
+- Simple implementation that leverages the built-in ``datetime`` module as much as possible
+- Excellent test coverage
+
 ----------
 Motivation
 ----------
@@ -65,5 +72,8 @@ Similar work
 ============
 - `datetime_tz`_
   - Another timezone aware drop-in replacement for the ``datetime`` module, but overrides more datetime behavior
+- `arrow`_
+  - An API-compatible re-write of the ``datetime`` module
 
 .. _`datetime_tz`: https://github.com/mithro/python-datetime-tz
+.. _`arrow`: https://github.com/crsmithdev/arrow
